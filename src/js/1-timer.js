@@ -21,7 +21,7 @@ class Timer {
 
     this.iziToastErrorOptions = {
       title: 'Error',
-      message: 'Please choose a date in the future',
+      message: 'Please choose a date in the future!',
       position: 'topCenter',
     };
 
