@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 2</title>
+    <script type="module" crossorigin src="/vite-vanilla/1-timer.js"></script>
+    <link rel="modulepreload" crossorigin href="/vite-vanilla/assets/vendor-D9L3Qz0t.js">
+    <link rel="stylesheet" crossorigin href="/vite-vanilla/assets/1-timer-3bDh8ZTL.css">
+    <link rel="stylesheet" crossorigin href="/vite-vanilla/assets/styles-Uc1-U5pn.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="back-link" href="./index.html">Go back</a>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link active" href="./1-timer.html">Task 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-curr}" href="./2-snackbar.html">Task 2</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <div class="timer-wrapper">
+        <input class="time-picker" type="text" id="datetime-picker" />
+        <button class="timer-start-btn" type="button" data-start disabled>Start</button>
+        <div class="timer">
+          <div class="field">
+            <span class="value" data-days>00</span>
+            <span class="label">Days</span>
+          </div>
+          <div class="field">
+            <span class="value" data-hours>00</span>
+            <span class="label">Hours</span>
+          </div>
+          <div class="field">
+            <span class="value" data-minutes>00</span>
+            <span class="label">Minutes</span>
+          </div>
+          <div class="field">
+            <span class="value" data-seconds>00</span>
+            <span class="label">Seconds</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
