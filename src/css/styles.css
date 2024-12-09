@@ -6,6 +6,8 @@
 */
 /* Common styles */
 @import url('./reset.css');
+@import url('flatpickr/dist/flatpickr.min.css');
+@import url('izitoast/dist/css/iziToast.min.css');
 @import url('./base.css');
 @import url('./container.css');
 @import url('./animations.css');
@@ -13,3 +15,4 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./back-link.css');
+
