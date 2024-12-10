@@ -1,72 +1,72 @@
 .timer-wrapper {
-    padding: 32px;
-    background: #f6f6fe;
-    border-radius: 8px;
-    margin: 40px auto;
-    width: fit-content;
+  padding: 32px;
+  background: #f6f6fe;
+  border-radius: 8px;
+  margin: 40px auto;
+  width: fit-content;
 }
 
 .time-picker {
-    min-height: 40px;
-    background-color: transparent;
-    border: 1px solid #808080;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #2e2f42;
-    text-align: center;
-    letter-spacing: 0.04em;
-    border-color: #4e75ff;
-    margin-right: 20px;
+  min-height: 40px;
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-align: center;
+  letter-spacing: 0.04em;
+  border-color: #4e75ff;
+  margin-right: 20px;
 }
 
 .timer-start-btn {
-    min-width: 120px;
-    min-height: 40px;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #fff;
-    letter-spacing: 0.04em;
-    background-color: #4e75ff;
-    transition: transform 0.3s ease;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+  letter-spacing: 0.04em;
+  background-color: #4e75ff;
+  transition: transform 0.3s ease;
 }
 
 .timer-start-btn:disabled {
-    background-color: #4e75ff96;
-    cursor: default;
+  background-color: #4e75ff96;
+  cursor: default;
 }
 
-.time-picker:disabled {
-    border-color: #000;
-    cursor: default;
+.flatpickr-input[readonly]:disabled {
+  border-color: #000;
+  cursor: default;
 }
 
 .timer-start-btn:hover:not(:disabled) {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .timer {
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
 }
 
 .field {
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .value {
-    font-size: 60px;
-    line-height: 1.2;
+  font-size: 60px;
+  line-height: 1.2;
 }
 
 .label {
-    font-size: 20px;
+  font-size: 20px;
 }
